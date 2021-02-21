@@ -1,0 +1,30 @@
+1. monitor:a monitor is a synchronization construct that allows threads to have both
+mutual exclusion and the ability to wait (block) for a certain condition to become 
+false.
+
+2.lock or mutex:A lock or mutex (from mutual exclusion) is a synchronization 
+mechanism for enforcing limits on access to a resource in an environment where 
+there are many threads of execution.
+A lock is designed to enforce a mutual exclusion concurrency control policy.
+
+3.Multithreading is a technique that allows for concurrent (simultaneous) 
+execution of two or more parts of a program for maximum utilization of a CPU. 
+As a really basic example, multithreading allows you to write code in one program 
+and listen to music in another. Programs are made up of processes and threads.
+
+4.A process is an executing instance of a program. When you double click on the
+ Google Chrome icon 
+on your computer, you start a process which will run the Google Chrome program.
+
+5.Thread is the smallest executable unit of a process. 
+A process can have multiple threads with one main thread.
+
+6.Deadlocks happen when two or more threads aren’t able to make any progress 
+because the resource required by the first thread is held by the second and the 
+resource required by the second thread is held by the first.
+
+7.A livelock happens when two threads keep taking actions in response to the 
+other thread instead of making any progress. The best analogy is to think of 
+two persons trying to cross each other in a hallway. John moves 
+to the left to let Arun pass, and Arun moves to his right to let John pass.
+
